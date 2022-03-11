@@ -1,16 +1,16 @@
-#Design
+# Design
 Ten dokument zawiera informacje dotyczące specyfikacji aplikacji.
 
-#FrontEnd
+# FrontEnd
 Javascript
 
-#BackEnd
+# BackEnd
 
-##FileSystem
+## FileSystem
 HTML,CSS
 
-##Database
+## Database
 MySql
 
-##App Logic
+## App Logic
 Java
