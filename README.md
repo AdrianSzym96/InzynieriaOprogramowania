@@ -1,4 +1,5 @@
-# Aplikacja Webowa - BookShelf 
+# Aplikacja Webowa - BookWorm
+
 
 Aplikacja będzie służyła do przechowywania, wyszukiwania, oceniania, filtrowania książek.
 
