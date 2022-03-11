@@ -1,4 +1,4 @@
-# Aplikacja Webowa - BookWorm 🪱
+# Aplikacja Webowa - BookWorm 🐛🐛🐛
 
 
 Aplikacja będzie służyła do przechowywania, wyszukiwania, oceniania, filtrowania książek.
