@@ -2,7 +2,7 @@
 Ten dokument zawiera informacje dotyczące specyfikacji aplikacji.
 
 # FrontEnd
-Javascript
+Javascript react
 
 # BackEnd
 
@@ -10,7 +10,9 @@ Javascript
 HTML,CSS
 
 ## Database
-MySql
+express & MySql
 
 ## App Logic
-Java/Javascript/.NET/Python
+node
+
+ 
