@@ -13,4 +13,4 @@ HTML,CSS
 MySql
 
 ## App Logic
-Java
+Java/Javascript/.NET/Python
