@@ -1,21 +1,16 @@
-# Aplikacja Webowa - (BookWorm [*])  🐛🐛🐛
+# Aplikacja Webowa - PhotoLight to aplikacja dla początkujących fotografów przybliżająca relację między ustawieniami ISO, przesłony oraz długości czasu naświetlania.    
 
-
-Aplikacja będzie służyła do przechowywania, wyszukiwania, oceniania, filtrowania książek, audiobooków, ebooków.
 
 # Omówienie funkcjonalności aplikacji:
 
-Dodaj - pozwala dodać własną propozycję książki.
-Usuń - pozwala usunąć własną propozycję książki.
-Ulubione - umieszcza książkę w zakładce ulubione.
-Wyszukaj - pozwala wyszukać książkę w bazie.
+Użytkownik po wprowadzeniu zmiennych w postaci wartości przesłony, ISO lub czasu naświetlania otrzymuje propozycje doboru pozostałych ustawień tak aby oczekiwany efekt. 
 
+Dodatkową opcją będzie wybór natężenia światła który pozwoli orientacyjnie określić użytkownikowi w jakich warunkach fotografuje. 
 
-
+W naszym oprogramowaniu stawiamy głównie na frontend, user-experience oraz minimalizm.
 
 
 
 ## Documentation
 
-* [Design draft](docs/DESIGN.md)
 
