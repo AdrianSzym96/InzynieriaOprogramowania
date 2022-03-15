@@ -11,6 +11,9 @@ W naszym oprogramowaniu stawiamy głównie na frontend, user-experience oraz min
 
 
 
-## Documentation
+# Documentation
 
+## FrontEnd
+Javascript / React
 
+Decydujemy się na używanie React'a ponieważ jest to jedna z najnowszych i wiodących technologii przy tworzeniu aplikacji webowych. Konfiguracja ta pozwoli nam na stworzenie aplikacji która będzie nowoczesna oraz spełni wszystkie oczekiwania potencjalnych użytkowników co do funkcjonalności.
