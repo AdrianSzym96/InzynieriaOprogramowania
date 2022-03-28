@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <img src={kibic} className="Kibic-logo" alt="kibic" />
         <p>
-          test
+          test 1s
         </p>
         <a
 
