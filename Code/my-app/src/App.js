@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import kibic from './kibic.jpg';
 import './App.css';
 
 function App() {
@@ -6,12 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={kibic} className="Kibic-logo" alt="kibic" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <p>
-            TY KURWO ZOSTAW KIBICA
-          </p>
-
+          TY KURWO ZOSTAW KIBICA
         </p>
         <a
           className="App-link"

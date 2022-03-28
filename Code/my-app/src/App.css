@@ -6,10 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Kibic-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 0.01s linear;
+  }
+  .Kibic-logo {
+    animation: Kibic-logo-spin infinite 5s alternate;
   }
 }
 
@@ -21,6 +28,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  top:'50%';
   color: white;
 }
 
@@ -29,6 +37,14 @@
 }
 
 @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes Kibic-logo-spin {
   from {
     transform: rotate(0deg);
   }
