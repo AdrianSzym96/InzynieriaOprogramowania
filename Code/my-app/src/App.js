@@ -10,9 +10,7 @@ function App() {
         <img src={kibic} className="Kibic-logo" alt="kibic" />
         <p>
         </p>
-        <a
-          
-        >
+        <a>
           
         </a>
       </header>
