@@ -9,7 +9,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <img src={kibic} className="Kibic-logo" alt="kibic" />
         <p>
-          JS
         </p>
         <a
           className="App-link"
