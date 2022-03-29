@@ -8,13 +8,7 @@
 .home,
 .services,
 .products,
-.sign-up {
-  display: flex;
-  height: 90vh;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
+.calculator,
 
 .services {
   background-image: url('/images/img-2.jpg');
@@ -34,11 +28,40 @@
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('/images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.calculator img {
+  border-radius: 50%;
+  padding: 150px;
+  float: left;
+}
+
+.calculator {
+  text-align: center;
+  margin: 0 auto;
+  background-image: none; 
+  max-width: 400px;
+  color: rgb(108, 104, 254);
+  font-size: 30px;
+}
+
+.calculator label {
+  text-align: left;
+  display: block;
+}
+
+.calculator input, .calculator textarea, .calculator select {
+  float: left;
+width: 100%;
+padding: 6px 10px;
+margin: 10px 0;
+border: 1px solid;
+box-sizing: border-box;
+display: block;
+}
+
+.calculator button {
+  color: rgb(108, 104, 254);
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
