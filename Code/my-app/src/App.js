@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import kibic from './kibic.jpg';
 import './App.css';
-
+ 
 function App() {
   return (
     <div className="App">
