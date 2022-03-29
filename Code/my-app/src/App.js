@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import kibic from './kibic.jpg';
+import React from 'react';
+import Navbar from './components/Navbar';
 import './App.css';
- 
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Services from './components/pages/Services';
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <img src={kibic} className="Kibic-logo" alt="kibic" />
-        <p>
-          test 1s 2z
-        </p>
-        <a
-
-        >
-          
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/services' component={Services} />
+          <Route path='/products' component={Products} />
+          <Route path='/sign-up' component={SignUp} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
