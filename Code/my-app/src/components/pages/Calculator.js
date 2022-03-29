@@ -7,19 +7,26 @@ import App from '../../App';
 
 
  const Calculator = () => {
-  const [Apperture, setApperture] = useState('');
-  const [Shutter, setShutter] = useState('');
-  const [ISO, setISO] = useState(''); 
+  const [Apperture, setApperture] = useState('1');
+  const [Shutter, setShutter] = useState('1');
+  const [ISO, setISO] = useState('1'); 
+  const [EV, setEV] = useState(0);
 
-  let calculateEV = (ISO2,Apperture2) => {
+
+  let calculateEV = (ISO2,Apperture2,Shutter2) => {
     //EV = log2(100 * aperture2 / (ISO * shutter speed))
-
-      let x= ISO2 * Apperture2;
-      let EV= Math.log2((100 * Math.pow(Apperture2, 2) / (ISO2 * Shutter) ))
-      console.log(x);
-      console.log(EV);
+      let EVtemp= Math.log2((100 * Math.pow(Apperture2, 2) / (ISO2 * Shutter2) ))
+      console.log(EVtemp);
       
+      return (
+        <div className='calculator'>
+        <p>{ EVtemp }</p>
+        </div>
+      );
   }
+  const handleClick = ()=>{
+    // total price update logic
+ }
 
   return (
     <>
@@ -29,6 +36,7 @@ import App from '../../App';
 
           <label>Apperture opening:</label>
           <select
+              required
               value={Apperture}
               onChange={(e)=> setApperture(e.target.value)}
               >
@@ -41,6 +49,7 @@ import App from '../../App';
 
           <label>Shutter speed:</label>
           <select
+              required
               value={Shutter}
               onChange={(e)=> setShutter(e.target.value)}
               >
@@ -53,8 +62,9 @@ import App from '../../App';
 
           <label>ISO:</label>
           <select
+              required
               value={ISO}
-              onChange={(e)=> setISO(e.target.value)}
+              onChange={(e)=> setISO(e.target.value)}              
               >
                 <option value="100">100</option>
                 <option value="200">200</option>
@@ -62,8 +72,9 @@ import App from '../../App';
                 <option value="800">800</option>
           </select>
 
-        <button onClick = {calculateEV(ISO,Apperture)}>Calculate</button>
-
+        <button onClick = {(calculateEV(ISO,Apperture,Shutter))}>Calculate</button>
+        <p>{ EV }</p>
+       
           
 
         </form>
