@@ -62,7 +62,7 @@ import App from '../../App';
 
           <label>ISO:</label>
           <select
-              required
+              required 
               value={ISO}
               onChange={(e)=> setISO(e.target.value)}              
               >
