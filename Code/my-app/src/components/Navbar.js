@@ -43,11 +43,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/calculator'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Exposure Calculator
               </Link>
             </li>
             <li className='nav-item'>
