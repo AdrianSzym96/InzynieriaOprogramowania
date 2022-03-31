@@ -7,7 +7,7 @@ trigger:
 - master
 
 variables:
-  uiSource: '/Code/my-app/src'
+  uiSource: 'src'
   uiBuild: '$(uiSource)/build'
 pool:
   vmImage: ubuntu-latest
