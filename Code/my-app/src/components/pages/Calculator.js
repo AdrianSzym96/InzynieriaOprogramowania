@@ -18,7 +18,7 @@ import {useState} from "react";
   const Case = () => {
 
   if(EV < -8)
-    Result = "It must be really dark where you are if you need to take a photo with such EV. 😎"
+    Result = "It must be really dark where you are if you need to take a photo with such EV. 😎"  
   else if(EV < - 7)
     Result = "EV is suitable for taking photos of deep star fields and the Milky Way galaxy. ⭐🌌"
   else if(EV < - 5)
