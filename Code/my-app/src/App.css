@@ -20,12 +20,35 @@
 }
 
 .products {
-  background-image: url('/images/img-1.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  text-align: center;
+  margin: 0 auto;
+  background-image: none; 
+  max-width: 400px;
+  color: rgb(108, 104, 254);
+  font-size: 30px;
+}
+
+.products label {
+  text-align: left;
+  display: block;
+}
+
+.products input, .calculator textarea, .calculator select {
+  float: left;
+width: 100%;
+padding: 6px 10px;
+margin: 10px 0;
+border: 1px solid;
+box-sizing: border-box;
+display: block;
+}
+
+.products button {
+  color: rgb(108, 104, 254);
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .calculator img {
