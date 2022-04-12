@@ -6,20 +6,11 @@
 }
 
 .home,
-.services,
-.products,
+.calc2,
 .calculator,
 
-.services {
-  background-image: url('/images/img-2.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 
-.products {
+.calc2 {
   text-align: center;
   margin: 0 auto;
   background-image: none; 
@@ -28,12 +19,12 @@
   font-size: 30px;
 }
 
-.products label {
+.calc2 label {
   text-align: left;
   display: block;
 }
 
-.products input, .calculator textarea, .calculator select {
+.calc2 input, .calculator textarea, .calculator select {
   float: left;
 width: 100%;
 padding: 6px 10px;
@@ -43,7 +34,7 @@ box-sizing: border-box;
 display: block;
 }
 
-.products button {
+.calc2 button {
   color: rgb(108, 104, 254);
   border: 0;
   padding: 8px;
