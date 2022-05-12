@@ -1,4 +1,9 @@
-* {
+
+:root { 
+  
+}
+*
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -79,3 +84,40 @@ display: block;
   border-radius: 8px;
   cursor: pointer;
 }
+
+.photo {
+  flex: 1;
+  align-Items:'center';
+  width:10%;
+  height:100%;
+  justify-Content:'center';
+  
+}
+
+.Ev-Brightness-8 {
+ Filter: brightness(20%);
+}
+
+.Ev-Brightness-5 {
+  Filter: brightness(40%);
+ }
+
+ .Ev-Brightness-4 {
+  Filter: brightness(60%);
+ }
+
+ .Ev-Brightness-9 {
+  Filter: brightness(80%);
+ }
+
+ .Ev-Brightness-12 {
+  Filter: brightness(100%);
+ }
+
+ .Ev-Brightness-15 {
+  Filter: brightness(200%);
+ }
+
+ .Ev-Brightness-0 {
+  Filter: brightness(0%);
+ }

@@ -1,45 +1,73 @@
 import React from 'react';
 import '../../App.css';
 import {useState} from "react";
-
+import photo0 from './0.jpg'
 
 
  const Calculator = () => {
-  const [Apperture, setApperture] = useState(1);
+  const [Apperture,  setApperture] = useState(1);
   const [Shutter, setShutter] = useState(0.0005);
   const [ISO, setISO] = useState(100); 
   const [Expo, setExpo] = useState(11);
-
+  var photo = document.getElementsByClassName("photo");
+  
+  
   var EV;
-  var XD;
   var Result;
   var Config;
+
 
   let calculateEV = (ISO2,Apperture2,Shutter2) => {
       EV =Math.round( (Math.log2((100 * Apperture2*Apperture2) / (ISO2 * Shutter2) )) *100)/100;
   }
 
+  var classToadd = "photo ";
+
   const Case2 = () => {
   if(Expo < -5)
-	Config="Shutter=30\n	ISO=200 	Apperture=f/1,4"
+  {
+    classToadd += "Ev-Brightness-8";
+    Config="Shutter=30\n	ISO=200 	Apperture=f/1,4"
+  }
   else if(Expo < - 1)
+  {
+    classToadd += "Ev-Brightness-5";
 	Config="Shutter=8  	ISO=200 	Apperture=f/2,8"
+  }
   else if(Expo < 4)
+  {
+  classToadd += "Ev-Brightness-4";
   Config="Shutter=1 	ISO=200 	Apperture=f/5,6"
+  }
   else if(Expo < 9)
+  {
+  classToadd += "Ev-Brightness-9";
   Config="Shutter=1/8	ISO=200 	Apperture=f/11,0"
+  }
   else if(Expo < 12)
+  {
+  classToadd += "Ev-Brightness-12";
   Config="Shutter=1/60  ISO=200	Apperture=f/16,0"
+  }
   else if(Expo < 15)
+  {
+  classToadd += "Ev-Brightness-15";
   Config="Shutter=1/250	ISO=200	Apperture=f/16,0"
+  }
   else 
+  {
+  classToadd += "Ev-Brightness-0";
 	Config="Shutter=1/2000  ISO=200	Apperture=f/32,0"
+  }
   }
 
   const Case = () => {
+    
+  if(EV <= -8)
+  {
 
-  if(EV < -8)
     Result = "It must be really dark where you are if you need to take a photo with such EV. 😎"  
+  }
   else if(EV < - 7)
     Result = "EV is suitable for taking photos of deep star fields and the Milky Way galaxy. ⭐🌌"
   else if(EV < - 5)
@@ -61,7 +89,20 @@ import {useState} from "react";
 
   return (
     <>
-      <div className='calculator'>
+    
+    <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 20 }}>  
+    
+
+
+
+    <div>
+    <img src={photo0} width="650" height="650" />
+    </div>
+    
+    
+    
+     
+<div className='calculator'>
         <form>
 
 
@@ -177,6 +218,15 @@ import {useState} from "react";
         
         </form>
         </div>
+
+
+        <div className={classToadd}>
+        <img src={photo0} width="650" height="650" />
+        
+        </div>
+
+        </div>
+        
       </>
   );
 }
