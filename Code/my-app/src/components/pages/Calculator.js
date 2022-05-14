@@ -1,7 +1,9 @@
 import React from 'react';
 import '../../App.css';
 import {useState} from "react";
-import photo0 from './0.jpg'
+import photo0 from './0.jpg';
+import photo1 from './1.jpeg';
+
 
 
  const Calculator = () => {
@@ -304,7 +306,9 @@ classToadd += "Ev-Brightness--8";
         </div>
 
         </div>
-        
+        <div classname='centerImage'> 
+        <img src={photo1} width="1690" height="300"  />
+        </div>
       </>
   );
 }

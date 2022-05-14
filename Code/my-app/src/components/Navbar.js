@@ -50,15 +50,7 @@ function Navbar() {
                 Exposure Calculator
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/Calc2'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Calc2
-              </Link>
-            </li>
+          
 
             <li>
               <Link

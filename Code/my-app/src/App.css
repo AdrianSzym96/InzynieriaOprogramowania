@@ -47,11 +47,6 @@ display: block;
   cursor: pointer;
 }
 
-.calculator img {
-  border-radius: 50%;
-  padding: 150px;
-  float: left;
-}
 
 .calculator {
   text-align: center;
@@ -66,7 +61,11 @@ display: block;
   text-align: left;
   display: block;
 }
-
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
 .calculator input, .calculator textarea, .calculator select {
   float: left;
 width: 100%;
@@ -171,3 +170,8 @@ display: block;
  .Ev-Brightness--8 {
   Filter: brightness(10%);
  }
+
+ .outer {
+  border: 1px solid red;
+  width:100%
+}
