@@ -22,41 +22,119 @@ import photo0 from './0.jpg'
   }
 
   var classToadd = "photo ";
+const Case3 = () => {
+if(Expo==20)
+classToadd += "Ev-Brightness-20";
+if(Expo==19)
+classToadd += "Ev-Brightness-19";
+if(Expo==18)
+classToadd += "Ev-Brightness-18";
+
+if(Expo==17)
+classToadd += "Ev-Brightness-17";
+
+if(Expo==16)
+classToadd += "Ev-Brightness-16";
+
+if(Expo==15)
+classToadd += "Ev-Brightness-15";
+
+if(Expo==14)
+classToadd += "Ev-Brightness-14";
+
+if(Expo==13)
+classToadd += "Ev-Brightness-13";
+
+if(Expo==12)
+classToadd += "Ev-Brightness-12";
+
+if(Expo==11)
+classToadd += "Ev-Brightness-11";
+
+if(Expo==10)
+classToadd += "Ev-Brightness-10";
+
+if(Expo==9)
+classToadd += "Ev-Brightness-9";
+
+if(Expo==8)
+classToadd += "Ev-Brightness-8";
+
+if(Expo==7)
+classToadd += "Ev-Brightness-7";
+if(Expo==6)
+classToadd += "Ev-Brightness-6";
+
+if(Expo==5)
+classToadd += "Ev-Brightness-5";
+
+if(Expo==4)
+classToadd += "Ev-Brightness-4";
+
+if(Expo==3)
+classToadd += "Ev-Brightness-3";
+
+if(Expo==2)
+classToadd += "Ev-Brightness-2";
+
+if(Expo==1)
+classToadd += "Ev-Brightness-1";
+
+if(Expo==0)
+classToadd += "Ev-Brightness-0";
+
+if(Expo==-1)
+classToadd += "Ev-Brightness--1";
+
+if(Expo==-2)
+classToadd += "Ev-Brightness--2";
+
+if(Expo==-3)
+classToadd += "Ev-Brightness--3";
+
+if(Expo==-4)
+classToadd += "Ev-Brightness--4";
+
+if(Expo==-5)
+classToadd += "Ev-Brightness--5";
+
+if(Expo==-6)
+classToadd += "Ev-Brightness--6";
+if(Expo==-7)
+classToadd += "Ev-Brightness--7";
+if(Expo==-8)
+classToadd += "Ev-Brightness--8";
+
+}
 
   const Case2 = () => {
   if(Expo < -5)
   {
-    classToadd += "Ev-Brightness-8";
+    
     Config="Shutter=30\n	ISO=200 	Apperture=f/1,4"
   }
   else if(Expo < - 1)
   {
-    classToadd += "Ev-Brightness-5";
 	Config="Shutter=8  	ISO=200 	Apperture=f/2,8"
   }
   else if(Expo < 4)
   {
-  classToadd += "Ev-Brightness-4";
   Config="Shutter=1 	ISO=200 	Apperture=f/5,6"
   }
   else if(Expo < 9)
   {
-  classToadd += "Ev-Brightness-9";
   Config="Shutter=1/8	ISO=200 	Apperture=f/11,0"
   }
   else if(Expo < 12)
   {
-  classToadd += "Ev-Brightness-12";
   Config="Shutter=1/60  ISO=200	Apperture=f/16,0"
   }
   else if(Expo < 15)
   {
-  classToadd += "Ev-Brightness-15";
   Config="Shutter=1/250	ISO=200	Apperture=f/16,0"
   }
   else 
   {
-  classToadd += "Ev-Brightness-0";
 	Config="Shutter=1/2000  ISO=200	Apperture=f/32,0"
   }
   }
@@ -212,7 +290,7 @@ import photo0 from './0.jpg'
 
         {Case2(Expo)}
         {Case(EV)}
-
+        {Case3(Expo)}
         <p>{ Result }</p>
         <p>{ Config }</p>
         
