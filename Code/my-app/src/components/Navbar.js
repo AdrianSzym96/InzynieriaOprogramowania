@@ -21,7 +21,7 @@ function Navbar() {
   useEffect(() => {
     showButton();
   }, []);
-
+ 
   window.addEventListener('resize', showButton);
 
   return (
@@ -43,22 +43,14 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/calculator'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                Exposure Calculator
               </Link>
             </li>
-            <li className='nav-item'>
-              <Link
-                to='/products'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Products
-              </Link>
-            </li>
+          
 
             <li>
               <Link
