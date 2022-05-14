@@ -93,31 +93,81 @@ display: block;
   justify-Content:'center';
   
 }
-
-.Ev-Brightness-8 {
- Filter: brightness(20%);
+.Ev-Brightness-20 {
+  Filter: brightness(300%);
+ }.Ev-Brightness-19 {
+  Filter: brightness(290%);
+ }.Ev-Brightness-18 {
+  Filter: brightness(280%);
+ }.Ev-Brightness-17 {
+  Filter: brightness(270%);
+ }.Ev-Brightness-16 {
+  Filter: brightness(260%);
+ }.Ev-Brightness-15 {
+  Filter: brightness(250%);
+ }.Ev-Brightness-14 {
+  Filter: brightness(240%);
+ }.Ev-Brightness-13 {
+  Filter: brightness(230%);
+ }.Ev-Brightness-12 {
+  Filter: brightness(220%);
+ }.Ev-Brightness-11 {
+  Filter: brightness(210%);
+ }.Ev-Brightness-10 {
+  Filter: brightness(200%);
+ }.Ev-Brightness-9 {
+  Filter: brightness(190%);
+ }.Ev-Brightness-8 {
+  Filter: brightness(180%);
+ }.Ev-Brightness-7 {
+  Filter: brightness(170%);
+ }.Ev-Brightness-6 {
+  Filter: brightness(160%);
+ }.Ev-Brightness-5 {
+  Filter: brightness(150%);
+ }
+.Ev-Brightness-4 {
+ Filter: brightness(140%);
 }
 
-.Ev-Brightness-5 {
-  Filter: brightness(40%);
+.Ev-Brightness-3 {
+  Filter: brightness(130%);
  }
 
- .Ev-Brightness-4 {
-  Filter: brightness(60%);
+ .Ev-Brightness-2 {
+  Filter: brightness(120%);
  }
 
- .Ev-Brightness-9 {
-  Filter: brightness(80%);
- }
-
- .Ev-Brightness-12 {
-  Filter: brightness(100%);
- }
-
- .Ev-Brightness-15 {
-  Filter: brightness(200%);
+ .Ev-Brightness-1 {
+  Filter: brightness(110%);
  }
 
  .Ev-Brightness-0 {
-  Filter: brightness(0%);
+  Filter: brightness(100%);
+ }
+
+ .Ev-Brightness--1{
+  Filter: brightness(80%);
+ }
+
+ .Ev-Brightness--2 {
+  Filter: brightness(70%);
+ }
+ .Ev-Brightness--3 {
+  Filter: brightness(60%);
+ }
+ .Ev-Brightness--4 {
+  Filter: brightness(50%);
+ }
+ .Ev-Brightness--5 {
+  Filter: brightness(40%);
+ }
+ .Ev-Brightness--6 {
+  Filter: brightness(30%);
+ }
+ .Ev-Brightness--7 {
+  Filter: brightness(20%);
+ }
+ .Ev-Brightness--8 {
+  Filter: brightness(10%);
  }
